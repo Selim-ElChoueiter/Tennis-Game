@@ -1,0 +1,22 @@
+#singleRoot{
+	-fx-background-image: url("background1.jpg");
+  	-fx-background-position: center; /* Center the image */
+  	-fx-background-repeat: no-repeat; /* Do not repeat the image */
+  	-fx-background-size:stretch;
+
+}
+
+#multiRoot{
+	-fx-background-image: url("background1.jpg");
+  	-fx-background-position: center; /* Center the image */
+  	-fx-background-repeat: no-repeat; /* Do not repeat the image */
+  	-fx-background-size:stretch;
+
+}
+
+#WinnerScene {
+	-fx-background-image: url("win.jpg");
+  	-fx-background-position: center; /* Center the image */
+  	-fx-background-repeat: no-repeat; /* Do not repeat the image */
+  	-fx-background-size:stretch;
+}

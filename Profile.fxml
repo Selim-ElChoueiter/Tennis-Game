@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.layout.*?>
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.String?>
+
+<GridPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ProfileController" alignment="center"
+           hgap="20" vgap="20">
+	
+	<Label text="MultiGames" GridPane.columnIndex="0"
+           GridPane.rowIndex="0" GridPane.columnSpan="2" GridPane.halignment="CENTER" />
+           
+    <Text fx:id="personName" text="Name:" GridPane.columnIndex="0" GridPane.rowIndex="1"/>
+    
+    <Text fx:id="userName" GridPane.columnIndex="1" GridPane.rowIndex="1"/>
+    
+    <Text fx:id="personDate" text="Date Of Birth:" GridPane.columnIndex="0" GridPane.rowIndex="2"/>
+    
+    <Text fx:id="userDate" GridPane.columnIndex="1" GridPane.rowIndex="2"/>
+    
+    <Text fx:id="personEmail" text="Email:" GridPane.columnIndex="0" GridPane.rowIndex="3"/>
+    
+    <TextField fx:id="userEmail" GridPane.columnIndex="1" GridPane.rowIndex="3"/>
+    
+    <Text fx:id="personPassword" text="Password:" GridPane.columnIndex="0" GridPane.rowIndex="4"/>
+    
+    <PasswordField fx:id="userPassword" GridPane.columnIndex="1" GridPane.rowIndex="4"/>
+    
+    <Button fx:id="submitButton" text="Save"
+            prefWidth="100" prefHeight="40" defaultButton="true"
+            GridPane.columnIndex="0" GridPane.rowIndex="5"
+            GridPane.columnSpan="1" 
+            GridPane.halignment="CENTER"
+            onAction="#saveUser"
+            />
+    <Text fx:id="saveStatusFail" GridPane.columnIndex="0" GridPane.rowIndex="6" GridPane.columnSpan="2" GridPane.halignment="CENTER"/>
+    <Text fx:id="saveStatusSuccess" GridPane.columnIndex="0" GridPane.rowIndex="7" GridPane.columnSpan="2" GridPane.halignment="CENTER"/>
+	
+</GridPane>
+

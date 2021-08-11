@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.layout.*?>
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.String?>
+<?import javafx.scene.shape.Rectangle?>
+
+<VBox xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ScoreController" 
+           spacing="10" alignment="center">
+	
+	<Label text="Your Statistics"/>
+	
+	<VBox  spacing="10">
+	
+	<Label text="Single Player" />
+         
+   
+           
+    <Text fx:id="highscore" />
+           
+    <Text fx:id="mostmissed" />
+
+    <Text fx:id="forehand" />
+    
+    <Text fx:id="backhand" />
+    
+  
+    </VBox>
+    
+    
+    <VBox  spacing="10">
+    
+    <Label text="Multi Player" />
+           
+            
+           
+    <Text fx:id="forehandMulti"/>
+           
+    <Text fx:id="backhandMulti"/>
+    
+    <Text fx:id="playedMulti" />
+    
+    <Text fx:id="lossesMulti" />
+    
+    <Text fx:id="winsMulti" />
+      
+    </VBox>
+
+</VBox>
+
